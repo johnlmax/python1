@@ -1,0 +1,10 @@
+age = int(input ("\nEnter your age: "))
+
+if age < 18:
+      print ("A minor")
+elif age >= 20 and age <= 29:
+    print ("Still a spring chicken")
+elif age >= 30 and age <= 39:
+    print ("Getting on a bit")
+elif age >= 40:
+    print ("Now you're technically old")

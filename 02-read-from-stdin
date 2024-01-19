@@ -1,0 +1,9 @@
+name = input("\nEnter the account name: ")
+number = input("Enter account no: ")
+balance = input("Enter the balance: ")
+isTaxable = input("Is Taxable (Yes/No): ")
+
+print("\nAccount Name: " + name)
+print("Number: " + str(number))
+print("balance: " + str (balance))
+print("isTaxable: " + isTaxable, "\n")
